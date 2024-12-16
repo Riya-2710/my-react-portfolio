@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import { FaBuilding, FaCalendarAlt, FaBriefcase, FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaPython, FaNodeJs, FaGit, FaGithub, FaDocker, FaAws, FaServer, FaKey, FaShieldAlt, FaLock } from 'react-icons/fa';
-import { SiDjango, SiPostgresql, SiMysql, SiMongodb, SiExpress, SiNginx } from 'react-icons/si';
+import { SiDjango, SiPostgresql, SiMysql, SiMongodb, SiExpress, SiNginx, SiReact } from 'react-icons/si';
 import { GiStethoscope } from 'react-icons/gi';
 
 function App() {
@@ -57,7 +57,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/riyasadhwani" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
           <a href="https://github.com/Riya-2710/Riya-2710.git" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
           <a href="https://www.instagram.com/riya_._sadhwani" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="mailto:riyasadhwani2710@gmail.com"><i className="fas fa-envelope"></i></a>
+          <a href="mailto:sadhwan.riya2000@gmail.com"><i className="fas fa-envelope"></i></a>
           <a href="tel:+18078420430"><i className="fas fa-phone"></i></a>
         </div>
         <a href="./resume.pdf" download className="btn-download">Download Resume</a>
@@ -77,7 +77,7 @@ function AboutMe() {
           </p>
           <div className="fun-facts">
             <p className="hover-reveal">Hover over me for a fun fact! 🧩</p>
-            <p className="hidden-fact">I can solve a Rubik's cube in under 2 minutes!</p>
+            <p className="hidden-fact">Pink is not my favourite color!</p>
           </div>
         </div>
       </div>
@@ -122,16 +122,14 @@ function Skills() {
 function WorkExperience() {
   const experiences = [
     {
-      position: 'Full-Stack Developer',
-      company: 'ABC',
-      duration: 'October 2024 - Present',
-      description: ''
-    },
-    {
       position: 'Software Engineer',
-      company: 'XYZ',
-      duration: 'May 2023 - July 2024',
-      description: '',
+      company: 'INTACT - Ontario, Canada',
+      duration: 'Dec 2023 – Current',
+      },
+    {
+      position: 'Junior Software Developer',
+      company: 'GVT Software Solutions - Ahmedabad, India',
+      duration: 'May 2021 – May 2022',
     }
   ];
 
